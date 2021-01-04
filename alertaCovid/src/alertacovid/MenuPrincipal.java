@@ -1,16 +1,22 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 package alertacovid;
 
 import java.awt.Color;
 import java.awt.Font;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import static java.lang.System.out;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
+/**
+ *
+ * @author francisco
+ */
 public class MenuPrincipal {
     private JFrame frame;
     private JPanel panel;
@@ -40,42 +46,6 @@ public class MenuPrincipal {
         panel.add(b1);
         panel.add(b2);
         
-        frame.setVisible(true);  
-        
-        b1.addActionListener(new ActionListener(){
-            @Override
-            public void actionPerformed(ActionEvent e){
-                Cliente o = new Cliente();
-                frame.setVisible(false);
-            }
-        });
-        
-         b2.addActionListener(new ActionListener(){
-            @Override
-            public void actionPerformed(ActionEvent e){
-                Lugar  o1 = new Lugar();
-                frame.setVisible(false);
-            }
-        }); 
+        frame.setVisible(true);
     }
-    
-    void op(){
-        b1.addActionListener(new ActionListener(){
-            @Override
-            public void actionPerformed(ActionEvent e){
-                Cliente o = new Cliente();
-                
-            }
-        });  
-        
-        b2.addActionListener(new ActionListener(){
-            @Override
-            public void actionPerformed(ActionEvent e){
-                out.println("h");
-                new Lugar();
-                frame.setVisible(false);
-            }
-        }); 
-    }
-    
 }

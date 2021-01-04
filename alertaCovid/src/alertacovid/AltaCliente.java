@@ -38,7 +38,7 @@ public class AltaCliente {
         panel.add(label);
         label.setBounds(225, 65, 450, 50);
         
-        b1 = new JButton("Iniciar sesión");
+        b1 = new JButton("Enviar");
         b1.setBounds(315, 450, 175, 50);
         panel.add(b1);
         

@@ -54,7 +54,7 @@ public class Cliente {
             @Override
             public void actionPerformed(ActionEvent e){
                 AltaCliente au = new AltaCliente();
-                frame.setVisible(false);
+                //frame.setVisible(false);
             }
         });
     }

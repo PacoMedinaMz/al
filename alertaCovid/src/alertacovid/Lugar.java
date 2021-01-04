@@ -54,7 +54,7 @@ public class Lugar {
             @Override
             public void actionPerformed(ActionEvent e){
                 AltaLugar al = new AltaLugar();
-                frame.setVisible(false);
+                //frame.setVisible(false);
             }
         });
     }    
